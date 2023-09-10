@@ -1,0 +1,48 @@
+.red {
+    width: 123px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF8E8E;
+    border-radius: 5px;
+}
+
+.red:hover{
+    cursor: pointer;
+}
+
+.blue {
+    width: 123px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6688FF;
+    border-radius: 5px;
+}
+
+.blue:hover{
+    cursor: pointer;
+}
+
+.card_container {
+    width: 80%;
+}
+
+.icon{
+    padding-left: 15px;
+}
+
+.card_title {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card_subTitle {
+    color: #fff;
+    font-size: 8px;
+    text-align: center;
+}

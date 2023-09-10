@@ -1,0 +1,68 @@
+.header {
+    max-width: 100%;
+    height: 77px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    max-width: 1194px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo_img {
+    width: 40px;
+    height: 25px;
+    background-image: url(../../assets/img/image\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo_icon {
+    width: 153px;
+    height: 41px;
+    background-image: url(../../assets/img/InVenture.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    margin-right: 37px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.navigation a:last-child {
+    margin-right: 0px;
+}
+
+.icons {
+    width: 190px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons label {
+    height: 23px;
+    cursor: pointer;
+}

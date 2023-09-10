@@ -1,0 +1,60 @@
+.primary {
+    width: 100%;
+    height: 56px;
+    font-size: 24px;
+    color: #FFF;
+    background-color: #0036F8;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.primary:not(:disabled):hover {
+    cursor: pointer;
+    background-color: #2957fd;
+}
+
+.secondary {
+    width: 78px;
+    height: 18px;
+    background-color: #0036F8;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 5px;
+    font-size: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.secondary:hover {
+    cursor: pointer;
+    background-color: #062cb3;
+}
+
+.usual {
+    margin: 24px 0 15px 0;
+    padding: 12px 10px;
+    background-color: #0036F8;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    transition: 0.3s ease;
+}
+
+.usual:hover {
+    background-color: #365ef0;
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.btn_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

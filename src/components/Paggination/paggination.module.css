@@ -1,0 +1,30 @@
+.paggination_container {
+    max-width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    margin: 15px auto 30px auto;
+    font-size: 20px;
+}
+
+.buttonStyles {
+    background-color: #E1E1E1;
+    border-radius: 5px;
+    border: 1.5px solid #969393;
+    color: #000000;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.activeButtonStyles {
+    background-color: #E1E1E1;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
